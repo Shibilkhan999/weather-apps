@@ -76,7 +76,7 @@ app.get('/get-weather/:cityName', (req, res) => {
       min: 28,
       max: 40,
       feelslike: 42,
-      Visibility: 4
+      visibility: 14,
     };
   } else if (city === "islamabad") {
     apiRes = {
@@ -87,7 +87,7 @@ app.get('/get-weather/:cityName', (req, res) => {
       min: 25,
       max: 35,
       feelslike: 34,
-      Visibility:10
+      Visibility: 10,
     };
   } else if (city === "peshawar") {
     apiRes = {
@@ -98,7 +98,7 @@ app.get('/get-weather/:cityName', (req, res) => {
       min: 27,
       max: 38,
       feelslike: 39,
-      visibility: 8
+      visibility: 8,
       
     };
   } else if (city === "japan") {
@@ -110,7 +110,7 @@ app.get('/get-weather/:cityName', (req, res) => {
       min: 18,
       max: 28,
       feelslike: 27,
-      visibility: 10
+      visibility: 12,
     };
   } else if (city === "new york") {
     apiRes = {
@@ -121,7 +121,7 @@ app.get('/get-weather/:cityName', (req, res) => {
       min: 16,
       max: 24,
       feelslike: 23,
-      visibility: 18
+      visibility: 18,
       
     };
   } else if (city === "london") {
@@ -133,7 +133,7 @@ app.get('/get-weather/:cityName', (req, res) => {
       min: 12,
       max: 20,
       feelslike: 17,
-      visibility: 14
+      visibility: 11,
     };
   } else if (city === "paris") {
     apiRes = {
@@ -144,7 +144,7 @@ app.get('/get-weather/:cityName', (req, res) => {
       min: 14,
       max: 22,
       feelslike: 21,
-      visibility: 9
+      visibility: 17,
     };
   } else if (city === "dubai") {
     apiRes = {
@@ -155,7 +155,7 @@ app.get('/get-weather/:cityName', (req, res) => {
       min: 35,
       max: 45,
       feelslike: 48,
-      visibility: 2
+      visibility: 2,
     };
   } else if (city === "turkey") {
     apiRes = {
@@ -166,7 +166,7 @@ app.get('/get-weather/:cityName', (req, res) => {
       min: 32,
       max: 41,
       feelslike: 44,
-      visibility: 24
+      visibility: 24,
     };
   } else {
     apiRes = {
